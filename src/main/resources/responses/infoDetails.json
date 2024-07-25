@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "infoDetails": {
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Luis_Caputo_%28cropped%29.jpg",
+    "name": "Caputo",
+    "address": "Casa Rosada 128",
+    "aboutUs": "PAPARAMERICANO tan tan tantaaaaaaan",
+    "phone": "11 - 5698 - 6565",
+    "whatsapp": "14666 4555",
+    "email": "carlos@lacobra.com",
+    "website": "www.elmagico.com",
+    "instagram": "LINK QUE CONECTE?",
+    "facebook": "LINK QUE CONECTE?",
+    "primaryColor": "#00A4E4",
+    "secondaryColor": "white",
+    "discounts": [
+      "Lunes,50,0",
+      "Martes,50,0",
+      "Miércoles,1,0",
+      "Jueves,13,0",
+      "Viernes,14,0",
+      "Sábado,45,0",
+      "Domingo,20,0"
+    ]
+  }
+}
