@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/fidelyMock")
+@CrossOrigin()
 public class Rest {
 
     @GetMapping("/get")
