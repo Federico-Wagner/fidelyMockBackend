@@ -1,8 +1,8 @@
 {
   "success": true,
-  "profile": {
-    "useraname": "fedeWag",
-    "name": "Federico",
-    "surname": "Wagner"
+  "profileDto": {
+    "userName": "Juli K-PO",
+    "userPoints": 1500,
+    "userBalance": 56537.32
   }
 }
