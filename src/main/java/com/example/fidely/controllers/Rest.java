@@ -24,6 +24,11 @@ public class Rest {
         return JsonHandler.readJson("loginResponse.json");
     }
 
+    @GetMapping("/profile")
+    public Object profile() {
+        return JsonHandler.readJson("profileResponse.json");
+    }
+
     @GetMapping("/infoDetails")
     public Object infoDetails() {
         String metodo = "infoDetailsController";

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "profileDataDto": {
+    "name": "Elga",
+    "surname": "Rote",
+    "dateOfBirthday": "25/12/1994",
+    "dni": "38789654",
+    "sex": "MASCULINO",
+    "email": "ElgaRoteDuro@gmail.com",
+    "address": "Medrano 2058",
+    "city": "Mar del Plata",
+    "province": "Buenos Aires",
+    "cp": "2058"
+  }
+}
