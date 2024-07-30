@@ -54,7 +54,7 @@ public class Rest {
     public Object imageA() {
         String imageName = "banner11.png";
         Object response = ImageHandler.readImage(imageName);
-        System.out.println("/consumes - response: "+ imageName);
+        System.out.println("/images/A - response: "+ imageName);
         return response;
     }
 }
