@@ -1,6 +1,7 @@
 package com.example.fidely.controllers;
 
 
+import com.example.fidely.service.ImageHandler;
 import com.example.fidely.service.JsonHandler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -37,4 +38,9 @@ public class Rest {
         return ResponseEntity.ok(JsonHandler.readJson("consume.json"));
     }
 
+    @GetMapping("/images/A")
+    public Object imageA() {
+        System.out.println("images/A");
+        return ImageHandler.readImage("banner11.png");
+    }
 }
