@@ -3,11 +3,7 @@ package com.example.fidely.controllers;
 
 import com.example.fidely.service.ImageHandler;
 import com.example.fidely.service.JsonHandler;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalTime;
-
 
 @RestController
 @RequestMapping("/fidelyMock")
@@ -21,36 +17,44 @@ public class Rest {
 
     @GetMapping("/login")
     public Object login() {
-        return JsonHandler.readJson("loginResponse.json");
+        Object response = JsonHandler.readJson("loginResponse.json");
+        System.out.println("/login - response: "+ response);
+        return response;
     }
 
     @GetMapping("/profile")
     public Object profile() {
-        return JsonHandler.readJson("profileResponse.json");
+        Object response = JsonHandler.readJson("profileResponse.json");
+        System.out.println("/profile - response: "+ response);
+        return response;
     }
 
     @GetMapping("/brandColors")
     public Object brandColors() {
-        return JsonHandler.readJson("brandColorsResponse.json");
+        Object response = JsonHandler.readJson("brandColorsResponse.json");
+        System.out.println("/brandColors - response: "+ response);
+        return response;
     }
 
     @GetMapping("/infoDetails")
     public Object infoDetails() {
-        String metodo = "infoDetailsController";
-        System.out.println(metodo + "Data :"+JsonHandler.readJson("infoDetails.json") +" "+ LocalTime.now());
-        return JsonHandler.readJson("infoDetails.json");
+        Object response = JsonHandler.readJson("infoDetails.json");
+        System.out.println("/infoDetails - response: "+ response);
+        return response;
     }
 
     @GetMapping("/consumes")
-    public ResponseEntity<Object> consumes() {
-        String metodo = "infoDetailsController";
-        System.out.println(metodo + "Data :"+JsonHandler.readJson("consume.json") + " "+ LocalTime.now());
-        return ResponseEntity.ok(JsonHandler.readJson("consume.json"));
+    public Object consumes() {
+        Object response = JsonHandler.readJson("consume.json");
+        System.out.println("/consumes - response: "+ response);
+        return response;
     }
 
     @GetMapping("/images/A")
     public Object imageA() {
-        System.out.println("images/A");
-        return ImageHandler.readImage("banner11.png");
+        String imageName = "banner11.png";
+        Object response = ImageHandler.readImage(imageName);
+        System.out.println("/consumes - response: "+ imageName);
+        return response;
     }
 }
