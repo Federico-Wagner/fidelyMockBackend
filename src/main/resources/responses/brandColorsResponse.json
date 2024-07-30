@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "brandColors": {
+    "primaryBackground": "#0097D0",
+    "secondaryBackground": "#122D71",
+    "primaryText": "#FFFFFF",
+    "secondaryText": "#FFFFFF"
+  }
+}
