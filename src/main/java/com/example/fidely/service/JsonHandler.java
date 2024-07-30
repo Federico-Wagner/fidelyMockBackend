@@ -11,8 +11,8 @@ public class JsonHandler {
     public static Object readJson(String jsonFileName) {
         Object object;
         try{
-        FileReader fileReader = new FileReader("src/main/resources/responses/" + jsonFileName);
-        object = new JSONParser(fileReader).parse();
+            FileReader fileReader = new FileReader("src/main/resources/responses/" + jsonFileName);
+            object = new JSONParser(fileReader).parse();
         }catch (FileNotFoundException fne){
             object = "Error, archivo no encontrado";
         }catch (ParseException pe){
