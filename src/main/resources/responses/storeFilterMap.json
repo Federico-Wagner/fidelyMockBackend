@@ -1,0 +1,65 @@
+[
+  {
+    "name": "McDonald's",
+    "image": "https://www.shutterstock.com/image-vector/c-icon-vector-logo-sign-600nw-2242697067.jpg",
+    "latitude": -38.0055,
+    "longitude": -57.5426,
+    "rubro": "gastronomy",
+    "discount": 10,
+    "days": ["mon", "wed"]
+  },
+  {
+    "name": "Burger King",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAfeqxCrkzT89ncoyQnQfSeWXT9FkeI4UAg&s",
+    "latitude": -38.0100,
+    "longitude": -57.5500,
+    "rubro": "gastronomy",
+    "discount": 15,
+    "days": ["tue", "thu"]
+  },
+  {
+    "name": "Starbucks",
+    "image": "https://blog.logomaster.ai/hs-fs/hubfs/starbucks%20logo%201987.jpg?width=1700&height=1148&name=starbucks%20logo%201987.jpg",
+    "latitude": -38.0200,
+    "longitude": -57.5400,
+    "rubro": "gastronomy",
+    "discount": 20,
+    "days": ["fri", "sun"]
+  },
+  {
+    "name": "Nike Store",
+    "image": "https://thumbs.dreamstime.com/b/dise%C3%B1o-vectorial-de-logotipo-negro-nike-sports-logo-vector-listo-para-imprimir-ilustraciones-183282273.jpg",
+    "latitude": -38.0250,
+    "longitude": -57.5300,
+    "rubro": "sports",
+    "discount": 10,
+    "days": ["mon", "wed", "fri"]
+  },
+  {
+    "name": "Adidas Store",
+    "image": "https://static.vecteezy.com/system/resources/previews/010/994/239/non_2x/adidas-logo-black-symbol-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg",
+    "latitude": -38.0300,
+    "longitude": -57.5200,
+    "rubro": "sports",
+    "discount": 15,
+    "days": ["tue", "thu", "sat"]
+  },
+  {
+    "name": "Zara",
+    "image": "https://static.vecteezy.com/system/resources/previews/024/131/482/non_2x/zara-brand-logo-symbol-clothes-white-design-icon-abstract-illustration-with-black-background-free-vector.jpg",
+    "latitude": -38.0350,
+    "longitude": -57.5100,
+    "rubro": "fashion",
+    "discount": 20,
+    "days": ["wed", "fri", "sun"]
+  },
+  {
+    "name": "H&M",
+    "image": "https://assets.turbologo.com/blog/en/2021/07/07045753/hm-symbol-logo.png",
+    "latitude": -38.0400,
+    "longitude": -57.5000,
+    "rubro": "fashion",
+    "discount": 25,
+    "days": ["mon", "thu", "sat"]
+  }
+]

@@ -57,4 +57,13 @@ public class Rest {
         System.out.println("/images/A - response: " + imageName);
         return response;
     }
+
+    @GetMapping("/storeFilterMap")
+    public Object storeFilterMap() {
+        Object response = JsonHandler.readJson("storeFilterMap.json");
+        System.out.println("/consumes - response: " + response);
+        return response;
+    }
+
+
 }
