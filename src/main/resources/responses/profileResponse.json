@@ -1,12 +1,12 @@
 {
   "success": true,
-  "profileDataDto": {
-    "name": "Elga",
-    "surname": "Rote",
+  "userDataDTO": {
+    "name": "Julian",
+    "surname": "Crispino",
     "dateOfBirthday": "25/12/1994",
-    "dni": "38789654",
+    "dni": "38123456",
     "sex": "MASCULINO",
-    "email": "ElgaRoteDuro@gmail.com",
+    "email": "JuliCrispi@gmail.com",
     "address": "Medrano 2058",
     "city": "Mar del Plata",
     "province": "Buenos Aires",

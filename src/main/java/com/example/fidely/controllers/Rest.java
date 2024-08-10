@@ -15,6 +15,21 @@ public class Rest {
         return "hola mundo";
     }
 
+
+    @GetMapping("/brandColors")
+    public Object brandColors() {
+        Object response = JsonHandler.readJson("brandColorsResponse.json");
+        System.out.println("/brandColors - response: " + response);
+        return response;
+    }
+
+    @GetMapping("/createAccount")
+    public Object createAccount() {
+        Object response = JsonHandler.readJson("createAccountResponse.json");
+        System.out.println("/createAccount - response: " + response);
+        return response;
+    }
+
     @GetMapping("/login")
     public Object login() {
         Object response = JsonHandler.readJson("loginResponse.json");
@@ -29,12 +44,13 @@ public class Rest {
         return response;
     }
 
-    @GetMapping("/brandColors")
-    public Object brandColors() {
-        Object response = JsonHandler.readJson("brandColorsResponse.json");
-        System.out.println("/brandColors - response: " + response);
+    @GetMapping("/balance")
+    public Object balance() {
+        Object response = JsonHandler.readJson("balanceResponse.json");
+        System.out.println("/balance - response: " + response);
         return response;
     }
+
 
     @GetMapping("/infoDetails")
     public Object infoDetails() {
@@ -43,10 +59,10 @@ public class Rest {
         return response;
     }
 
-    @GetMapping("/consumes")
+    @GetMapping("/userConsumptions")
     public Object consumes() {
-        Object response = JsonHandler.readJson("consume.json");
-        System.out.println("/consumes - response: " + response);
+        Object response = JsonHandler.readJson("consumptionListResponse.json");
+        System.out.println("/userConsumptions - response: " + response);
         return response;
     }
 
