@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "formDataDTO": {
+    "banner": "https://media.istockphoto.com/id/2050846100/es/foto/red-global-impulsada-por-ia-y-conectividad-en-la-tierra-mundo-digital-al-norte-de-ee-uu-con.webp?s=612x612&w=is&k=20&c=-j3qjRrNgnYTFYNxuFKdrtAb5AY9dAT924P6Wd5i5p0=",
+    "formName": "Contanos tu experiencia",
+    "questions": [
+      {
+        "questionId": 1,
+        "questionText": "¿Cómo te atendimos?",
+        "questionType": "dropdown",
+        "options": ["Bien", "Regular", "Mal"]
+      },
+      {
+        "questionId": 2,
+        "questionText": "Puntua tu plato",
+        "questionType": "number"
+      },
+      {
+        "questionId": 3,
+        "questionText": "¿Que te gustaria que incorporemos a nuestro menú?",
+        "questionType": "select",
+        "options": ["Pizzas", "Hamburguesas", "Tartas", "Menu sin Tacc"]
+      },
+      {
+        "questionId": 4,
+        "questionText": "Dejanos tu comentario",
+        "questionType": "text"
+      }
+    ]
+  }
+}

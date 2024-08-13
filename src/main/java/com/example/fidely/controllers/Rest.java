@@ -89,5 +89,12 @@ public class Rest {
         return response;
     }
 
+    @GetMapping("/formData")
+    public Object formData() {
+        ServerTweaks.simulateServerDelay();
+        Object response = JsonHandler.readJson("formResponse.json");
+        System.out.println("/formDarta - response: " + response);
+        return response;
+    }
 
 }
