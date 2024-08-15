@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "companyDetails": {
+    "logo": "https://i.postimg.cc/Hs2GqzXq/redpluslogo.jpg",
+    "name": "RedPlus",
+    "aboutUs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus laoreet metus ut semper. Nullam dignissim bibendum sem, ac pellentesque ex semper feugiat. Cras rutrum vehicula porta. Duis hendrerit, nunc sit amet hendrerit mollis, lacus felis porttitor erat, nec lacinia metus\nDuis hendrerit, nunc sit amet hendrerit mollis, lacus felis porttitor erat, nec lacinia metus ",
+    "phone": "223 4258578",
+    "whatsapp": "14666 4555",
+    "email": "redplus@redpuls.com",
+    "website": "www.redplus.com",
+    "instagram": "ig.com/redplus",
+    "facebook": "fb.com/redplus",
+    "primaryColor": "#00A4E4",
+    "secondaryColor": "white"
+  }
+}

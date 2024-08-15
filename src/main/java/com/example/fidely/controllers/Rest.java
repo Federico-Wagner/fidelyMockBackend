@@ -97,4 +97,11 @@ public class Rest {
         return response;
     }
 
+    @GetMapping("/companyDetails")
+    public Object companyDetails() {
+        ServerTweaks.simulateServerDelay();
+        Object response = JsonHandler.readJson("companyDetails.json");
+        System.out.println("/companyDetails - response: " + response);
+        return response;
+    }
 }
