@@ -5,7 +5,7 @@
     "latitude": -38.0055,
     "longitude": -57.5426,
     "rubro": "gastronomy",
-    "discount": 10,
+    "discount": [10],
     "days": ["mon", "wed"]
   },
   {
@@ -14,7 +14,7 @@
     "latitude": -38.0100,
     "longitude": -57.5500,
     "rubro": "gastronomy",
-    "discount": 15,
+    "discount": [15],
     "days": ["tue", "thu"]
   },
   {
@@ -23,7 +23,7 @@
     "latitude": -38.0200,
     "longitude": -57.5400,
     "rubro": "gastronomy",
-    "discount": 20,
+    "discount": [20],
     "days": ["fri", "sun"]
   },
   {
@@ -32,7 +32,7 @@
     "latitude": -38.0250,
     "longitude": -57.5300,
     "rubro": "sports",
-    "discount": 10,
+    "discount": [10],
     "days": ["mon", "wed", "fri"]
   },
   {
@@ -41,7 +41,7 @@
     "latitude": -38.0300,
     "longitude": -57.5200,
     "rubro": "sports",
-    "discount": 15,
+    "discount": [15],
     "days": ["tue", "thu", "sat"]
   },
   {
@@ -50,7 +50,7 @@
     "latitude": -38.0350,
     "longitude": -57.5100,
     "rubro": "fashion",
-    "discount": 20,
+    "discount": [20],
     "days": ["wed", "fri", "sun"]
   },
   {
@@ -59,7 +59,7 @@
     "latitude": -38.0400,
     "longitude": -57.5000,
     "rubro": "fashion",
-    "discount": 25,
+    "discount": [25],
     "days": ["mon", "thu", "sat"]
   }
 ]

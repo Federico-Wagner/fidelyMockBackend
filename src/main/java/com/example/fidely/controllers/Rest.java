@@ -85,7 +85,7 @@ public class Rest {
     public Object storeFilterMap() {
         ServerTweaks.simulateServerDelay();
         Object response = JsonHandler.readJson("storeFilterMap.json");
-        System.out.println("/consumes - response: " + response);
+        System.out.println("/storeFilterMap - response: " + response);
         return response;
     }
 
